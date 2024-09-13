@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+   
+   <p>Filter Dragons By House</p>
+   <form method="GET", action="", class="formid">
+        <input type="text", name = "inp", value="">
+        <input type="submit" value="Filter">
+   </form>
+    <h3>Dragons</h3>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Dragon Name</th>
+                    <th>Rider</th>
+                    <th>Identification</th>
+                    <th>House</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each Dragon as |drg|}}
+                    <tr>
+                        <td>{{drg.dragonName}}</td>
+                        <td>{{drg.rider}}</td>
+                        <td>{{drg.identification}}</td>
+                        <td>{{drg.house}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+</html>

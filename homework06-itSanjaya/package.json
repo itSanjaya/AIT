@@ -1,0 +1,22 @@
+{
+  "name": "homework06-itsanjaya",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0467-001-002-fall-2022/homework06-itSanjaya.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0467-001-002-fall-2022/homework06-itSanjaya/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0467-001-002-fall-2022/homework06-itSanjaya#readme",
+  "dependencies": {
+    "eslint-plugin-mocha": "^10.1.0"
+  }
+}

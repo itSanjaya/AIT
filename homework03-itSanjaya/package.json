@@ -1,0 +1,29 @@
+{
+  "name": "homework03-itsanjaya",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0467-001-002-fall-2022/homework03-itSanjaya.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0467-001-002-fall-2022/homework03-itSanjaya/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0467-001-002-fall-2022/homework03-itSanjaya#readme",
+  "dependencies": {
+    "npm-install": "^1.8.23"
+  },
+  "resolutions": {
+    "react-dev-utils": "10.0.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-mocha": "^10.1.0",
+    "markdown-it": "^13.0.1"
+  }
+}
